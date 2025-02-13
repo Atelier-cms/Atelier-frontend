@@ -45,8 +45,8 @@ function Home() {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
             Our fully integrated web development solutions power dynamic, 
             user-centric digital experiences for businesses of all sizes. 
-            We have delivered 500+ projects spanning websites, e-commerce platforms, 
-            and custom web applications, providing tailored results across 20+ industries globally.
+            We tend to  deliver multiple websites such as  e-commerce platforms, 
+            and custom web applications, providing tailored results according to your needs.
           </p>
         </motion.div>
       </motion.div>
