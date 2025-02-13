@@ -66,7 +66,7 @@ const handlesubmit = async (e) => {
     }
 
     try {
-        await axios.post(`${BACKEND_URL}/api/v1/user/form`, { firstname, lastname, email, country, phone, message });
+        await axios.post(`${BACKEND_URL}api/v1/user/form`, { firstname, lastname, email, country, phone, message });
 
         // Show alert only when the form is submitted successfully
         toast.success("Form submitted successfully!", { position: "top-right", autoClose: 3000 });
