@@ -273,7 +273,7 @@
 
 //     const handlesubmit=async(req,res)=>{
 //         try {
-//             await axios.post(`${BACKEND_URL}/api/v1/user/form`, {firstname, lastname, email, country, phone, message})
+//             await axios.post(`${BACKEND_URL}api/v1/user/form`, {firstname, lastname, email, country, phone, message})
 //             console.log({firstname, lastname, email, country, phone, message});
             
 //         } catch (error) {
