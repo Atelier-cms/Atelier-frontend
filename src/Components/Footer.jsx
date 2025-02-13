@@ -24,7 +24,7 @@ function Footer() {
                         >
                             atelier.dev2@gmail.com
                         </a>
-                        <p className="text-gray-500 pt-4">+91 0000000000</p>
+                        <p className="text-gray-500 pt-4">+91 8527535782</p>
                     </div>
 
                     {/* Links Section */}
