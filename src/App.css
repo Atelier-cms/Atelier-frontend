@@ -1,0 +1,35 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.gradient {
+  background: linear-gradient(45deg, red, yellow);
+  animation: moveGradient 1s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background: linear-gradient(45deg, red, yellow);
+  }
+  50% {
+    background: linear-gradient(-45deg, red, yellow);
+  }
+  100% {
+    background: linear-gradient(45deg, red, yellow);
+  }
+}
