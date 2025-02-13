@@ -39,7 +39,7 @@ function Footer() {
                     {/* Social Section */}
                     <div className="flex flex-col w-full">
                         <a
-                            href="https://github.com/Harsh-9818"
+                            href="https://github.com/Atelier-cms"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-white"
