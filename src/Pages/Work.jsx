@@ -66,7 +66,7 @@ const handlesubmit = async (e) => {
     }
 
     try {
-        await axios.post(`${BACKEND_URL}api/v1/user/form`, { firstname, lastname, email, country, phone, message });
+        await axios.post(`${BACKEND_URL}/api/v1/user/form`, { firstname, lastname, email, country, phone, message });
 
         // Show alert only when the form is submitted successfully
         toast.success("Form submitted successfully!", { position: "top-right", autoClose: 3000 });
@@ -96,13 +96,13 @@ const handlesubmit = async (e) => {
             {/* Form section */}
             <div className="w-min max-w-2xl lg:border lg:border-slate-700 md:border md:border-slate-700 flex flex-col items-center mx-auto lg:mt-10 mt-5 rounded-2xl p-6 py-4 mb-24">
                 <h3 className="text-lg pt-2">Welcome to Atelier</h3>
-                <p className="text-gray-400 text-sm pt-2">Fill out this details form so we can connect with you.</p>
+                <p className="text-gray-400 text-xs pt-2">Fill out this details form so we can connect with you.</p>
 
                 <form 
                     onSubmit={submitHandler} 
-                    className="w-96 flex flex-col items-center mt-8"
+                    className="w-80 flex flex-col items-center mt-8"
                 >
-                    <div className="w-96">
+                    <div className="w-80">
                         <div className="flex flex-col lg:flex-row gap-10 sm:gap-4 w-full justify-center mb-6">
                             <div>
                                 <label className="text-sm">First Name</label>
