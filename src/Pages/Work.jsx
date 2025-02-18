@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 // updated code 
-//Testing
+//Test
 function Work() {
 
     const submitHandler = (e) => {
