@@ -53,10 +53,11 @@ function Home() {
       
 
       {/* Button */}
-      <div className=" flex items-center justify-center ">
+      <div className=" flex items-center justify-center relative z-10">
         <Link to="/work" className=" glow-on-hover font-bold text-white text-md h-12 w-40 rounded-full flex items-center justify-center" >
         GET IN TOUCH
         </Link>
+        {/* <Link to="/work">get in touch</Link> */}
       </div>
       
       <div>
