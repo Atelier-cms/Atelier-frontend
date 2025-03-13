@@ -56,7 +56,7 @@ function Footer() {
                         </a>
 
                         <a
-                            href="https://www.linkedin.com/in/harshtanwar/"
+                            href="https://www.linkedin.com/in/atelier-dev-655539350/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-white pt-4"
@@ -65,7 +65,7 @@ function Footer() {
                         </a>
 
                         <a
-                            href="https://x.com/ezharsh"
+                            href="https://x.com/tanwar_drishti"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-500 hover:text-white pt-4"
