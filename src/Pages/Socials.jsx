@@ -16,9 +16,9 @@ function SocialCard({ name, Icon, link }) {
 function Socials() {
     const socialPlatforms = [
         { name: "Instagram", Icon: FaInstagram, link: "https://www.instagram.com/atelier_official_/" },
-        { name: "Github", Icon: FaGithub, link: "https://github.com/Harsh-9818" },
-        { name: "LinkedIn", Icon: FaLinkedin, link: "https://www.linkedin.com/in/harshtanwar/" },
-        {name: "Twitter", Icon: FaTwitter, link: "https://x.com/ezharsh"}
+        { name: "Github", Icon: FaGithub, link: "https://github.com/Atelier-cms" },
+        { name: "LinkedIn", Icon: FaLinkedin, link: "https://www.linkedin.com/in/atelier-dev-655539350/" },
+        {name: "Twitter", Icon: FaTwitter, link: "https://x.com/tanwar_drishti"}
     ];
     
     return (
